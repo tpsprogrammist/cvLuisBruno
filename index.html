@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>Luis Bruno - System Administrator</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +12,18 @@
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
+<script type="text/javascript">
+	function switchImg() {
+		document.getElementById("avatar").src="img/IMG_7552.jpg";
+	}
+
+	function backImg() {
+		document.getElementById("avatar").src="img/Luisme.jpg";
+	}
+
+
+</script>
+</head>
 <body class="w3-light-grey">
 
 <!-- Page Container -->
@@ -24,7 +37,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="img/Luisme.jpg" style="width:100%" alt="Avatar">
+        	<a class="avatarImg" onmouseover="switchImg()" onmouseout="backImg()">
+          		<img id="avatar" src="img/Luisme.jpg" style="width:100%" alt="Avatar">
+      		</a>
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <h2>Luis Bruno</h2>
           </div>
@@ -81,23 +96,56 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <div class="w3-twothird">
     
       <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Job Description</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>System Administrator / WalMart </b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2018 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b>System Administrator </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>DUTIES:</h6>
+          <p>
+          	<ul>
+          		<li>network monitoring</li>
+          		<li>testing the network for weakness</li>
+          		<li>keeping an eye out for needed updates</li>
+          		<li>installing and implementing security programs</li>
+          		<li>in many cases, E-mail and Internet filters</li>
+          		<li>evaluating implementing network</li>
+          	</ul>
+          	</p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Technical Support Engineer / Target</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2017</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b>Network Administrator</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>RESPONSIBILITIES:</h6>
+          <p><ul>
+          	<li>Analyzing system logs and identifying potential issues with computer systems</li>
+          	<li>
+Applying operating system updates, patches, and configuration changes.
+</li>
+          	<li>Installing and configuring new hardware and software.
+</li>
+          	<li>Adding, removing, or updating user account information, resetting passwords, etc.</li>
+          	<li>
+Answering technical queries and assisting users.
+</li>
+          	<li>Responsibility for security.
+</li>
+          	<li>Responsibility for documenting the configuration of the system.
+</li>
+          	<li>Troubleshooting any reported problems.
+</li>
+          	<li>System performance tuning.</li>
+          	<li>
+Ensuring that the network infrastructure is up and running.</li>
+          	<li>
+Configuring, adding, and deleting file systems.</li>
+          	<li>
+Ensuring parity between dev, test and production environments.</li>
+          </ul></p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Junior IT Engineer / Exxon</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+          <h5 class="w3-opacity"><b>Expected Salary</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>$75000</h6>
+          <p>Plus year benefits</p><br>
         </div>
       </div>
 
