@@ -1804,6 +1804,7 @@ li{
 }
 
 .formnice{
+    text-align: left;
     padding: 20px;
     border-radius: 3px;
 }
