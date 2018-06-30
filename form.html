@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Luis Bruno - Table of Skills</title>
+	<title>Poll page</title>
 	<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
@@ -28,21 +28,31 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </nav>
 
 <!-- Form -->
-<form class="form1" action="#">
-	<input type="text" name="textn"><br>
-	<input type="radio" name=""><br>
-	<label>What do you know?</label><br>
-	<input type="checkbox" name="vehicle1" value="Network">Network<br>
- 	<input type="checkbox" name="vehicle2" value="Database">Database SQL<br>
-    <input type="checkbox" name="vehicle3" value="Web" checked> Web: HTML, CSS, JS<br>
+<div class="dcenter formnice">
+<form method="post" class="form1" action="#">
+	<label>Tell us about yourself:</label>
+	<input class="inputext" type="text" name="textn"><br>
+	<!-- <input type="radio" name=""><br> -->
+	<label>What do you know?</label>
+	<div class="sanpos">
+	<input type="checkbox" name="vehicle1" value="Network">Network <br>
+ 	<input type="checkbox" name="vehicle2" value="Database">MySQL <br>
+    <input type="checkbox" name="vehicle3" value="Web">HTML5 <br>
+    <input type="checkbox" name="vehicle5" value="Network">Linux   <br>
+ 	<input type="checkbox" name="vehicle6" value="Database">Javasript<br>
+    <input type="checkbox" name="vehicle7" value="Web">Windows<br>
+</div>
 	<label>Your gender?</label><br>
     <input type="radio" name="gender" value="male"> Male<br>
 	<input type="radio" name="gender" value="female"> Female<br>
  	<input type="radio" name="gender" value="other"> Other<br>
+ 	<label>Send us your resume, please (PDF):</label>
  	<input type="file" name="myFile"><br>
+ 	<label>Specify your e-mail address, please:</label>
  	<input type="email" name="emailaddress" alt="e-mail" placeholder="e-mail"><br>
- 	
-
+ 	<label>Submit This Form please:</label>
+	<input type="submit" name="" id="submit">
+</div>
 </form>
 
 </body>

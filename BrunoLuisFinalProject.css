@@ -1434,7 +1434,7 @@ a {
 
 .w3-teal,.w3-hover-teal:hover {
     color: #fff!important;
-    background-color: #009688!important
+    background-color: #001996
 }
 
 .w3-yellow,.w3-hover-yellow:hover {
@@ -1564,7 +1564,7 @@ a {
 }
 
 .w3-text-teal,.w3-hover-text-teal:hover {
-    color: #009688!important
+    color: #001996
 }
 
 .w3-text-yellow,.w3-hover-text-yellow:hover {
@@ -1668,7 +1668,7 @@ a {
 }
 
 .w3-border-teal,.w3-hover-border-teal:hover {
-    border-color: #009688!important
+    border-color: #001996
 }
 
 .w3-border-yellow,.w3-hover-border-yellow:hover {
@@ -1786,11 +1786,57 @@ li{
 
 .dcenter{
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
+    position: relative;
 }
 /*.btable {
     border: 0;
     border-color: black;
     border-spacing: 1px;
 }*/
+.sanpos{
+    /*text-align: left;*/
+    /*margin: 0 auto;*/
+    /*position: relative;*/
+}
+.padding2{
 
+}
+
+.formnice{
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.form1{
+
+
+}
+
+.inputext{
+    border-radius: 6px;
+}
+
+.form1 input{
+    padding: 20px;
+    margin: 10px;
+    color: grey;/*
+
+    border: 1px;*/
+}
+
+label {
+background-color: #16abc4;
+    color:#1b341a;
+    height: 75px;
+    /* margin-top: 50px; */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    /* vertical-align:   middle; */
+    border-radius: 10px;
+    text-align: left;
+    }
